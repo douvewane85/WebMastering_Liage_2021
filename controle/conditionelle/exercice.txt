@@ -6,11 +6,7 @@
      Initialiser trois variables  puis les ranger
       dans l'ordre decroissant
   */
-  /*
-    Exercice 4:
-     Initialiser une variable mois entier
-      puis afficher le mois correspondant en chaine
-  */
+  
   /*
     Exercice 5:
      Initialiser une variable une annee  entier

@@ -55,6 +55,37 @@
 
 
         *switch(variable )--- case
+          suite de if qui teste sur une meme variable
+          if($var==valeur1){
+            instruction1;
+          }
+          if($var==valeur2){
+            instruction2;
+          }
+          if($var==valeur3){
+            instruction3;
+          }
+
+          ou 
+          switch($var){
+            case valeur1:
+              instruction1;
+              break;
+               case valeur2:
+              instruction2;
+              break;
+               case valeur3:
+              instruction3;
+              break;
+             [default:
+                instructionDefault;
+                break;
+             ] 
+          }
+
+         NB: Cas Défault(falcutatif) est le cas execution si aucun des autres 
+          cas énumerés n'est pas verifé
+
       -Boucles
         *while
         *for
