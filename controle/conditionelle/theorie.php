@@ -86,12 +86,6 @@
          NB: Cas Défault(falcutatif) est le cas execution si aucun des autres 
           cas énumerés n'est pas verifé
 
-      -Boucles
-        *while
-        *for
-        *do...while()
-        //PHP
-        *foreach() =>Tableau
-
+     
     */
 ?>

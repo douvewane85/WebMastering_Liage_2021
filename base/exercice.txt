@@ -1,0 +1,29 @@
+ /*
+    A Faire
+     Exercice7:
+     Initialiser quatre variables  puis les ranger
+      dans l'ordre decroissant
+  */
+
+  /*
+    3-afficher la somme des valeurs premiers entre 1 et une valeur Générée
+     4-afficher le produit des valeurs parfaits entre 1 et une valeur Générée
+       6=1+2+3
+  */
+
+  /*
+   1)Afficher une serie de valeurs générés ,l'affichage s'arrete lorsque
+   l'on génére une valeur 0
+   2)Apres l'arret de la boucle , on affiche le nombres valeurs qui a été génére
+    Exemple
+      $nbre=1; 
+      $nbre=2;
+      $nbre=3;
+      $nbre=0;
+      Le nombre valeurs générés est 4
+  */
+
+
+  
+ 
+  
