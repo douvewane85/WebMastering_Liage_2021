@@ -6,7 +6,6 @@
   */
 
   /*
-    3-afficher la somme des valeurs premiers entre 1 et une valeur Générée
      4-afficher le produit des valeurs parfaits entre 1 et une valeur Générée
        6=1+2+3
   */
@@ -22,6 +21,26 @@
       $nbre=0;
       Le nombre valeurs générés est 4
   */
+
+  /*
+
+         //Creer une fonction qui convertit le premier caractere d'une chaine en majuscule
+         //et tous les autres caracteres en minuscules
+   
+  */
+
+    /*
+            fonction emailValide qui teste si un email est valide ou pas
+    */
+
+    /*
+            fonction telValide qui teste si un numero de telephone portable
+             est valide ou pas
+               Exemple: 
+                   77  
+              **9 chiffres
+              **indicatif doit etre 77,78,76,70,75
+    */
 
 
   

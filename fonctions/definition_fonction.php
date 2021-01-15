@@ -42,14 +42,15 @@
             2) Appel : $x, $y(arguments formels) sont remplacés par des valeurs(arguments reels) 
                //Fonction Vide
                    f(12,5)
-             //Fonction Vide
+             //Fonction Non Vide
                $result=somme(rand(2,10),rand(34,2))
+
+               **Conseils:
+                  fonction avec Arguments
+                  fonction qui retourne un resultat
        */
 
 
-    //Exemple:
-         //Creer une fonction qui convertit le premier caractere d'une chaine en majuscule
-         //et tous les autres caracteres en minuscules
-         //fonction emailValide
+    
 
 ?>

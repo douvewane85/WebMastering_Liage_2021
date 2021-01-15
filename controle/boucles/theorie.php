@@ -30,6 +30,10 @@
             
         //PHP
         *foreach() =>Tableau
+
+            foreach($tableau as [$key=>] $valeur){
+                //Traitement
+            }
  */
 
 ?>

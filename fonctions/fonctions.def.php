@@ -128,28 +128,47 @@
                //$i=2    5%2==0  false
                //$i=3    5%3==0  false
                //$i=4    5%4==0  false
-         **somme des nombres premiers et retourne la somme
 
+                1000 2,3,4,5,6,7,8,9  => 2  (1parcours)
+                1000 1,2,3,4,5,6,7,8,9,10 cpt=4 (10 parcours)
 
-         1000 2,3,4,5,6,7,8,9  => 2  (1parcours)
-         1000 1,2,3,4,5,6,7,8,9,10 cpt=4 (10 parcours)
+         **somme des nombres premiers et retourne la somme  
      */
         function premier($nbre){ 
+            //Traitement cherche un 3ieme diviseurs et retourne false
             for ($i=2; $i <$nbre ; $i++) { 
                 if($nbre%$i==0){
                     return false;
                 }
             }
-                return true;
+                return true;//Le nombre est premier
           
         }
-        
-       function sommeNbrePremier(){
-         
+
+       function sommeNbrePremier($valGenere){
+           $somme=0;
+         for ($i=2; $i <$valGenere ; $i++) { 
+             
+                $result=premier($i);
+            
+           //false or true
+             /*
+               if($result==true)  equivalent  if($result) 
+               if($result==false) equivalent  if(!$result) 
+             */
+             if($result){
+                 echo "$i, ";
+                 $somme+=$i;
+
+             }
+         }
+         return $somme;
+
        }
 
     /*
       2-afficher le produit des valeurs parfaits entre 1 et une valeur Générée
+        
     */
 
 
